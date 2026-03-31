@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.prj:job-app >---------------------------
+[INFO] Building job-app 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.11:run (default-cli) > test-compile @ job-app >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ job-app ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ job-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ job-app ---
+[INFO] skip non existing resourceDirectory C:\Users\HARSH PANDEY\Desktop\codes\Springboot\job app - react\job-app\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ job-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.11:run (default-cli) < test-compile @ job-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.11:run (default-cli) @ job-app ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.11)
+
+2026-02-28T11:49:50.238+05:30  INFO 23216 --- [           main] com.prj.job.app.JobAppApplication        : Starting JobAppApplication using Java 24.0.2 with PID 23216 (C:\Users\HARSH PANDEY\Desktop\codes\Springboot\job app - react\job-app\target\classes started by HARSH PANDEY in C:\Users\HARSH PANDEY\Desktop\codes\Springboot\job app - react\job-app)
+2026-02-28T11:49:50.253+05:30  INFO 23216 --- [           main] com.prj.job.app.JobAppApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-02-28T11:49:53.267+05:30  INFO 23216 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-28T11:49:53.307+05:30  INFO 23216 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-28T11:49:53.309+05:30  INFO 23216 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-02-28T11:49:53.501+05:30  INFO 23216 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-28T11:49:53.505+05:30  INFO 23216 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3094 ms
+2026-02-28T11:49:54.579+05:30  INFO 23216 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-02-28T11:49:54.602+05:30  INFO 23216 --- [           main] com.prj.job.app.JobAppApplication        : Started JobAppApplication in 5.951 seconds (process running for 7.07)
+2026-02-28T11:49:54.920+05:30  INFO 23216 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28T11:49:54.925+05:30  INFO 23216 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-28T11:49:54.928+05:30  INFO 23216 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
